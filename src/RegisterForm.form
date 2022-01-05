@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RegisterForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="340" height="105"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="52930" class="javax.swing.JLabel" binding="lbName">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="10"/>
+          <labelFor value="13deb"/>
+          <text value="Name: "/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="13deb" class="javax.swing.JTextField" binding="txtName">
+        <constraints/>
+        <properties>
+          <columns value="15"/>
+        </properties>
+      </component>
+      <component id="7e8dc" class="javax.swing.JButton" binding="btnJoin">
+        <constraints/>
+        <properties>
+          <text value="Join"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

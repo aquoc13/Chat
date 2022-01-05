@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ChatFrame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="510" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <scrollpane id="2245f" binding="jScrollChat">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b6178" class="javax.swing.JTextArea" binding="areaChat">
+            <constraints/>
+            <properties>
+              <columns value="40"/>
+              <rows value="15"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="e67c1" binding="jpanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="e7ee3" binding="jScrollInput">
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="9fc36" class="javax.swing.JTextArea" binding="areaInput">
+                <constraints/>
+                <properties>
+                  <columns value="29"/>
+                  <rows value="3"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="ff6be" class="javax.swing.JButton" binding="btnSend">
+            <constraints/>
+            <properties>
+              <text value="Send"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
